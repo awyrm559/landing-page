@@ -1,0 +1,49 @@
+body {
+    background-color: slategrey;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: darkgray;
+  color:#fff;
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+
+.nav a:hover {
+    transform: rotate(4deg);
+    text-decoration: none;
+    display: block;
+}
+
+.nav {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 200px;
+    color: aliceblue;
+}
+
+button {
+    width: 125px;
+    font-size: large;
+    padding: 5px 10px;
+}
