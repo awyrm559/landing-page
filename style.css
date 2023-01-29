@@ -97,42 +97,28 @@ strong {
     justify-content: center;
     flex-direction: column;
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
-    flex-grow: 0;
 }
 
 .end-container {
-    display: flex;
-    flex-direction: column;
-    background-color: slategray;
-    color:white;
-    font-size: 40px;
-    justify-content: center;
-    text-align: left;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-right:350px;
-    padding-left: 300px;
-    flex-wrap:wrap;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 50px 0;
+   font-size: 50px;
+   color: wheat;
+
 }
 
-.last-part {
-    display:flex;
-}
 span {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 60px 45px;
-
+    padding: 0 500px;
 }
-
-p {
+.ramen {
     display: flex;
     align-self: flex-end;
-    padding-right: 20px;
+    padding-right: 600px;
     font-size: 30px;
 }
 
@@ -146,5 +132,14 @@ p {
 .bottom-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+}
+
+.coaspan {
+    display: flex;
+    align-items: center;
+}
+.coa {
+    display: flex;
+    justify-content: center;
 }
